@@ -1,6 +1,6 @@
-# fourwsoneh TinyMCE Plugin
+# 4Ws&1H TinyMCE Plugin
 
-Welcome stranger! This is a repo containing the fourwsoneh TinyMCE plugin.
+Welcome stranger! This is a repo containing the 4Ws&1H TinyMCE plugin.
 
 ## The development server
 
