@@ -1,3 +1,5 @@
+tinymce.PluginManager.requireLangPack('fourwsoneh', 'es');
+
 import _ from 'lodash';
 
 const plugin = (editor) => {
@@ -18,13 +20,13 @@ const plugin = (editor) => {
 					{type: 'textbox', name: 'h', label: 'How?'},
 				],
 				onsubmit(e) {         
-				  editor.insertContent("<ul>");
-				  editor.insertContent("<li><strong>When?: </strong>" + e.data.w1 + "</li>");
-				  editor.insertContent("<li><strong>Why?: </strong>" + e.data.w2 + "</li>");
-				  editor.insertContent("<li><strong>Whom?: </strong>" + e.data.w3 + "</li>");
-				  editor.insertContent("<li><strong>What?: </strong>" + e.data.w4 + "</li>");
-				  editor.insertContent("<li><strong>How?: </strong>" + e.data.h + "</li>");
-				  editor.insertContent("</ul>");
+					editor.insertContent("<ul>");
+					editor.insertContent("<li>" + e.data.w1 + "</li>");
+					editor.insertContent("<li>" + e.data.w2 + "</li>");
+					editor.insertContent("<li>" + e.data.w3 + "</li>");
+					editor.insertContent("<li>" + e.data.w4 + "</li>");
+					editor.insertContent("<li>" + e.data.h + "</li>");
+					editor.insertContent("</ul>");
 				}
 			});
 		}
